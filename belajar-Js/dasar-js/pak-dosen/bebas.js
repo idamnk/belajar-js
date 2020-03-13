@@ -1,6 +1,3 @@
-const idam = (telo) =>{
-    for(let a=0; a<10; a++){
-        console.log(telo[a] *3)
-    }
-}
-idam(21)
+let a = [2,3,4,6,2,4]
+
+console.log(a[2])

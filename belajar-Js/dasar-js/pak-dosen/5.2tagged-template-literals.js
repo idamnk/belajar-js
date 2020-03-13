@@ -20,7 +20,7 @@
 const nama = 'Idam Nur Kholis';
 const umur = 23;
 
-function coba (string, ...values){
+function coba (string, ...values){ /*titik tiga(...) adalah rest parameter */
     return string.reduce((result,str,i)=> `${result}${str}<span class="hl">${values[i] || ''}</span>`,'')
 }
 
