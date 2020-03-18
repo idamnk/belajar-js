@@ -25,16 +25,38 @@
 //     console.log(n)
 // }
 
-// Memakai index di for..of
+// // Memakai index di for..of
 
-const mhs = ['Idam', 'Prima', 'Dody'];
+// const mhs = ['Idam', 'Prima', 'Dody'];
 
-// kalo pake forEach
-mhs.forEach((m,i)=>{
-    console.log(`${m} adalah mahasiswa ke ${i +1}`)
-})
+// // kalo pake forEach
+// mhs.forEach((m,i)=>{
+//     console.log(`${m} adalah mahasiswa ke ${i +1}`)
+// })
 
-// kalo pake for..of harus pake method entries()
-for(m of mhs.entries()){
-    console.log(m)
+// // kalo pake for..of harus pake method entries()
+// for(m of mhs.entries()){
+//     console.log(m)
+// }
+
+// // arguments
+// function jumlahAngka() {
+//     let jumlah = 0;
+//     for(a of arguments){
+//         jumlah += a;
+//     }
+//     return jumlah;
+// }
+
+// console.log(jumlahAngka(1,2,3,4,5))
+
+// for in
+const mhs = {
+    nama: 'Idam Nur Kholis',
+    kelas : 'si03',
+    email: 'idam@gmail.com'
+}
+
+for(m in mhs){
+    console.log(m) /* kalo mau value yang ditampilkan ganti dengan (mhs[m])*/
 }

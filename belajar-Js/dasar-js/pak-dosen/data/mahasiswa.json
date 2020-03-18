@@ -1,0 +1,30 @@
+[
+    {
+        "nama" : "Idam",
+        "nim" : 15128525,
+        "email": "idam@email.com",
+        "jurusan" : "SI",
+        "idDosenWali" : "1"
+    },
+    {
+        "nama" : "Nur",
+        "nim" : 15128523,
+        "email": "telo@email.com",
+        "jurusan" : "SI",
+        "idDosenWali" : "1"
+    },
+    {
+        "nama" : "Kholis",
+        "nim" : 15128543,
+        "email": "pendem@email.com",
+        "jurusan" : "SI",
+        "idDosenWali" : "1"
+    },
+    {
+        "nama" : "Putri",
+        "nim" : 15128323,
+        "email": "haha@email.com",
+        "jurusan" : "SI",
+        "idDosenWali" : "1"
+    }
+]
